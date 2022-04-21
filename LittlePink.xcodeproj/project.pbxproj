@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		49C72EA3DC070638D4BD7ABD /* Pods_LittlePink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2491D693A364D99F3679DDDE /* Pods_LittlePink.framework */; };
 		E26C50FB2810024B006ED099 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26C50FA2810024B006ED099 /* HomeVC.swift */; };
-		E26C50FD281006CD006ED099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26C50FC281006CD006ED099 /* Main.storyboard */; };
 		E26C50FF2810093A006ED099 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26C50FE2810093A006ED099 /* FollowVC.swift */; };
 		E26C510128100958006ED099 /* DiscoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26C510028100958006ED099 /* DiscoverVC.swift */; };
 		E26C51032810096A006ED099 /* NearByVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26C51022810096A006ED099 /* NearByVC.swift */; };
@@ -23,13 +22,13 @@
 		E2BECE792810F2BC0070BF5A /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BECE782810F2BC0070BF5A /* WaterfallCell.swift */; };
 		E2BECE7D281106140070BF5A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E2BECE7C281106140070BF5A /* README.md */; };
 		E2BECE7F2811090E0070BF5A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E2BECE7E2811090E0070BF5A /* .gitignore */; };
+		E2ED72B628112C800017C45C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2ED72B828112C800017C45C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2491D693A364D99F3679DDDE /* Pods_LittlePink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D81844925A340B85A035435 /* Pods-LittlePink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink/Pods-LittlePink.debug.xcconfig"; sourceTree = "<group>"; };
 		E26C50FA2810024B006ED099 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		E26C50FC281006CD006ED099 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E26C50FE2810093A006ED099 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
 		E26C510028100958006ED099 /* DiscoverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverVC.swift; sourceTree = "<group>"; };
 		E26C51022810096A006ED099 /* NearByVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByVC.swift; sourceTree = "<group>"; };
@@ -45,6 +44,9 @@
 		E2BECE782810F2BC0070BF5A /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
 		E2BECE7C281106140070BF5A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E2BECE7E2811090E0070BF5A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E2ED72B728112C800017C45C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2ED72B928112C980017C45C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		E2ED72BA28112C990017C45C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		E769941AE0544EA7CE029F41 /* Pods-LittlePink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink.release.xcconfig"; path = "Target Support Files/Pods-LittlePink/Pods-LittlePink.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,8 +104,9 @@
 			children = (
 				E2733147280FAC7000D3D0AF /* AppDelegate.swift */,
 				E2733149280FAC7000D3D0AF /* SceneDelegate.swift */,
-				E26C50FC281006CD006ED099 /* Main.storyboard */,
+				E2ED72B828112C800017C45C /* Main.storyboard */,
 				E2BECE75281012DE0070BF5A /* Home */,
+				E26C51022810096A006ED099 /* NearByVC.swift */,
 				E2BECE7A2811059B0070BF5A /* Waterfall */,
 				E2BECE7B281105B20070BF5A /* Common */,
 				E2733153280FAC7100D3D0AF /* Assets.xcassets */,
@@ -120,7 +123,6 @@
 				E26C50FA2810024B006ED099 /* HomeVC.swift */,
 				E26C510028100958006ED099 /* DiscoverVC.swift */,
 				E26C50FE2810093A006ED099 /* FollowVC.swift */,
-				E26C51022810096A006ED099 /* NearByVC.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -186,6 +188,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = E273313B280FAC7000D3D0AF;
 			productRefGroup = E2733145280FAC7000D3D0AF /* Products */;
@@ -203,7 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2BECE7F2811090E0070BF5A /* .gitignore in Resources */,
-				E26C50FD281006CD006ED099 /* Main.storyboard in Resources */,
+				E2ED72B628112C800017C45C /* Main.storyboard in Resources */,
 				E2733157280FAC7100D3D0AF /* LaunchScreen.storyboard in Resources */,
 				E2BECE7D281106140070BF5A /* README.md in Resources */,
 				E2733154280FAC7100D3D0AF /* Assets.xcassets in Resources */,
@@ -279,8 +282,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				E2733156280FAC7100D3D0AF /* Base */,
+				E2ED72BA28112C990017C45C /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E2ED72B828112C800017C45C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2ED72B728112C800017C45C /* Base */,
+				E2ED72B928112C980017C45C /* zh-Hans */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -290,6 +303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -336,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -350,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -390,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

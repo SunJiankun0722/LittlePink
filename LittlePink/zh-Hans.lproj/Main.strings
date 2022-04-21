@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "附近的人(占位)"; ObjectID = "0gJ-F9-wCs"; */
+"0gJ-F9-wCs.text" = "附近的人(占位)";
+
+/* Class = "UITabBarItem"; title = "发布"; ObjectID = "4tG-9I-iTc"; */
+"4tG-9I-iTc.title" = "发布";
+
+/* Class = "UILabel"; text = "关注的人(占位)"; ObjectID = "Ch0-Gk-13I"; */
+"Ch0-Gk-13I.text" = "关注的人(占位)";
+
+/* Class = "UILabel"; text = "发布(占位)"; ObjectID = "ZaD-bw-2br"; */
+"ZaD-bw-2br.text" = "发布(占位)";
+
+/* Class = "UITabBarItem"; title = "消息"; ObjectID = "ZlW-5u-lsB"; */
+"ZlW-5u-lsB.title" = "消息";
+
+/* Class = "UILabel"; text = "消息(占位)"; ObjectID = "csI-3H-gXg"; */
+"csI-3H-gXg.text" = "消息(占位)";
+
+/* Class = "UITabBarItem"; title = "商城"; ObjectID = "krZ-yw-Kli"; */
+"krZ-yw-Kli.title" = "商城";
+
+/* Class = "UITabBarItem"; title = "我的"; ObjectID = "pdd-8k-EgI"; */
+"pdd-8k-EgI.title" = "我的";
+
+/* Class = "UITabBarItem"; title = "首页"; ObjectID = "quw-wZ-Mwv"; */
+"quw-wZ-Mwv.title" = "首页";
+
+/* Class = "UILabel"; text = "我的(占位)"; ObjectID = "wpM-au-PAR"; */
+"wpM-au-PAR.text" = "我的(占位)";
+
+/* Class = "UILabel"; text = "商城(占位)"; ObjectID = "z6K-X8-SQv"; */
+"z6K-X8-SQv.text" = "商城(占位)";
